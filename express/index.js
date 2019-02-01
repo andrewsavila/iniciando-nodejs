@@ -8,7 +8,7 @@ app.get('/', function(req, res) {
 
 app.get('/hello/:name', function(req, res) {
     res.json({
-        message: 'This is my param' + req.params.name
+        message: 'This is my param -> ' + req.params.name
     })
 });
 
